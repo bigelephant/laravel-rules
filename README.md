@@ -36,13 +36,13 @@ Add the following to the "require" section of your `composer.json` file:
 
 Edit the `app/config/app.php` file and...
 
-Add the following to your `providers` array:
+* Add the following to your `providers` array:
 
 ```php
 	'BigElephant\LaravelRules\RuleServiceProvider',
 ```
 
-Add the following to your `aliases` array:
+* Add the following to your `aliases` array:
 ```php
 	'Rule' => 'BigElephant\LaravelRules\RuleFacade',
 ```

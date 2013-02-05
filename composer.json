@@ -1,6 +1,7 @@
 {
     "name": "bigelephant/laravel-rules",
-    "description": "",
+    "description": "Alternative way to define rules in laravel.",
+    "keywords": ["laravel"],
     "authors": [
         {
             "name": "Robbo",
@@ -11,10 +12,10 @@
         "php": ">=5.3.0",
         "illuminate/support": "4.0.x"
     },
+    "suggests": {
+        "illuminate/validation": "4.0.x"
+    },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "BigElephant\\LaravelRules": "src/"
         }
