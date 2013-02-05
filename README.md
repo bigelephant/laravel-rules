@@ -44,5 +44,5 @@ Add the following to your `providers` array:
 
 Add the following to your `aliases` array:
 ```php
-	'Presenter' => 'BigElephant\LaravelRules\RuleFacade',
+	'Rule' => 'BigElephant\LaravelRules\RuleFacade',
 ```
